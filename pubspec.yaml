@@ -1,0 +1,22 @@
+name: droidmount
+description: "DroidMount - Android to macOS file transfer and management over ADB"
+version: "0.1.0"
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.8.0
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.24.0
+  lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
